@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const NavBar = (props) =>{
   return (
@@ -16,9 +16,17 @@ const NavBar = (props) =>{
           Subjects
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a className="dropdown-item" onClick={(e) => props.searchMethod(["portrait"])}>Portraits</a>
-          <a className="dropdown-item" onClick={(e) => props.searchMethod(["family"])}>Family</a>
-          <a className="dropdown-item" onClick={(e) => props.searchMethod(["musician"])}>Musicians</a>
+        <Router>
+        <Link to="/Portraits">
+        <a className="dropdown-item" onClick={(e) => props.searchMethod(["portrait"])}>Portraits</a>
+        </Link>
+        <Link to="/Family">
+        <a className="dropdown-item" onClick={(e) => props.searchMethod(["family"])}>Family</a>
+        </Link>
+        <Link to="/Musicians">
+        <a className="dropdown-item" onClick={(e) => props.searchMethod(["musician"])}>Musicians</a>
+        </Link>
+        </Router>
         </div>
       </li>
      

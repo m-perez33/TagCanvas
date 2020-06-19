@@ -5,6 +5,8 @@ import SearchBar from './SearchBar.js';
 import { ImageData } from './ImageData.js';
 import CardInfo from './CardInfo.js';
 import GridImage from './GridImage.js';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import './App.css';
 
 const results = [];
@@ -36,11 +38,10 @@ class ParentComponent extends React.Component {
 
 
   inputChange=(event)=> {
-    //turns search bar input into array
+    //turns search bar input into array, allows for multiple input searches
 
     let input=event.target.value
     const str =input.replace(/\s*,\s*/g, ",")
-
     let searchArray=str.split(',');
    
 
@@ -165,13 +166,14 @@ class ParentComponent extends React.Component {
             />
 
           </div>
-
           <div className="gridresults" style={{gridTemplateColumns: this.state.column}}>
             <div className="resultsgrid" style={{paddingBottom: this.state.padding}}>
                 {results.map(val => (
-                  //takes all image components and assembles as gird
+                  //takes all image components and assembles as grid
+            
                   <div>
                     <GridImage
+                      title={val.title}
                       key={val}
                       id={val}
                       src={val.src}
@@ -179,9 +181,12 @@ class ParentComponent extends React.Component {
                       width={this.state.width}
                       imageChange={this.imageChange}
                       column={this.state.column}
+                      last={this.state.last}
+
                     />
                   </div>
-                ))}            
+                
+              ))} 
               </div>
             <div className="gridresults1">
               {singleImage.map(val => (

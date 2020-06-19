@@ -7,6 +7,7 @@ const GridComponent =(props)=>{
           {props.results.map(val => (
             <div>
               <GridImage
+                title={val.title}
                 key={val}
                 id={val}
                 src={val.src}
