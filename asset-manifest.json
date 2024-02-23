@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/TagCanvas/static/css/main.ecb2332f.css",
+    "main.js": "/TagCanvas/static/js/main.c995a49f.js",
+    "static/media/cousins.jpg": "/TagCanvas/static/media/cousins.e72510f68c06cba24e4d.jpg",
+    "static/media/great.jpg": "/TagCanvas/static/media/great.b2e0fce6b4884df11333.jpg",
+    "static/media/Grandma.jpg": "/TagCanvas/static/media/Grandma.04a95cbd0172ba325b77.jpg",
+    "static/media/model.jpg": "/TagCanvas/static/media/model.990a0b0c7d297d70f4a9.jpg",
+    "static/media/atkins.jpg": "/TagCanvas/static/media/atkins.2e096d8fbae276befadb.jpg",
+    "static/media/costello.jpg": "/TagCanvas/static/media/costello.57e96da6157378afefe3.jpg",
+    "static/media/turner.jpg": "/TagCanvas/static/media/turner.54c6a3647b425e066f34.jpg",
+    "static/media/segarra.jpg": "/TagCanvas/static/media/segarra.9a7cfb3b384c29cc73b6.jpg",
+    "static/media/laura.jpg": "/TagCanvas/static/media/laura.8dc230051cc22cc3d306.jpg",
+    "static/media/price.jpg": "/TagCanvas/static/media/price.34dc424e62ebf6b15554.jpg",
+    "static/media/jimi.jpg": "/TagCanvas/static/media/jimi.0f171c8b189c0119ea46.jpg",
+    "static/media/franklin.jpg": "/TagCanvas/static/media/franklin.b8b784e45635420d1a49.jpg",
+    "static/media/emgabe.jpg": "/TagCanvas/static/media/emgabe.ef1db9beec9e8f70d307.jpg",
+    "static/media/unnamed.jpg": "/TagCanvas/static/media/unnamed.d2ec04c535ea2c17c3b9.jpg",
+    "static/media/IMG_8912.jpg": "/TagCanvas/static/media/IMG_8912.211bb4b00c1c44ef5629.jpg",
+    "index.html": "/TagCanvas/index.html",
+    "main.ecb2332f.css.map": "/TagCanvas/static/css/main.ecb2332f.css.map",
+    "main.c995a49f.js.map": "/TagCanvas/static/js/main.c995a49f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecb2332f.css",
+    "static/js/main.c995a49f.js"
+  ]
+}
