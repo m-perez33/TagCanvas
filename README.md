@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Tag Canvas
+
+Front-end for a web app project focused on art image assets. The app features a searchable database of paintings categorized by keywords, with users able to edit these keywords. Built with React, the app's functionality is hardcoded for seamless navigation and usage.
+
+xThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
