@@ -21,7 +21,7 @@ class ParentComponent extends React.Component {
     super(props);
     this.state = {
       search: "",
-      status: "ART IMAGE SEARCH",
+      status: "TAG CANVAS",
       column: "1fr 1fr",
     };
 
@@ -32,7 +32,7 @@ class ParentComponent extends React.Component {
     results.length=0;
     singleImage.length=0
 
-    this.setState({status: "ART IMAGE SEARCH"})
+    this.setState({status: "TAG CANVAS"})
 
   }
 
