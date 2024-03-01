@@ -1,8 +1,25 @@
-## Tag Canvas
+# Tag Canvas
 
-Front-end for a web app project focused on art image assets. The app features a searchable database of paintings categorized by keywords, with users able to edit these keywords. Built with React, the app's functionality is hardcoded for seamless navigation and usage.
+Front-end for a web app project focused on art image assets. The app features a searchable database of paintings categorized by keywords, with users able to edit these keywords. Built with React, the app's functionality is hardcoded for seamless navigation and usage. 
 
-xThis project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Motivation
+I wanted to make a cool art portfolio for my paintings that could be keyworded easily with a simple interface. Easy to read and easy to change!
+
+### Features
+- Searchable database of paintings tagged with metadata
+- Flexible interface so users can edit the metadata
+- Responsive design
+  
+To clone and run locally:
+
+```bash
+git clone https://github.com/m-perez33/TagCanvas.git
+```
+Run `npm install` to update dependencies.
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
